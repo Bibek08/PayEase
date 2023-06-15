@@ -4,7 +4,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 function Sidebar() {
   return (
-    <div className="bg-white sidebar p-2">
+    <div className="bg-black sidebar p-2">
       <div className="container">
         <div className="row">
           <div className="col-md-2">
