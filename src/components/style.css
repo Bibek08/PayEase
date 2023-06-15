@@ -1,0 +1,130 @@
+.form-container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px !important;
+}
+.rowpad {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.form-container form {
+  width: 100%;
+  padding: 0px 60px;
+}
+
+.login-template {
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(6, 121, 244);
+}
+
+.front-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* ................side navbar................. */
+.side-nav {
+  background-color: rgb(6, 121, 244);
+  width: 15%;
+  
+}
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  position: absolute;
+  margin-left: 40px;
+  left: 0;
+}
+
+.logo-link {
+  width: 100%;
+  padding: 0 30%;
+}
+
+.navlist {
+  margin-top: 30;
+  color: white;
+  list-style: none;
+  margin-top: 50px; /* Adjust the top margin value */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+.navlist a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.nav-item {
+  margin-bottom: 20px; /* Adjust the space between items */
+}
+.nav-item.active {
+  background-color: white;
+}
+.nav-item.active,
+.nav-link {
+  color: black;
+}
+/* ...........logo image.................... */
+.logo-img {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+/* ............sidebar......... */
+
+.list-group a:hover {
+  background-color: rgb(6, 121, 244);
+  color: white;
+  cursor: pointer;
+}
+.dash-img {
+  width: 800px;
+  height: auto;
+}
+#admin {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+#admin-name {
+  position: relative;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+}
+.logo h1:hover {
+  cursor: pointer;
+}
